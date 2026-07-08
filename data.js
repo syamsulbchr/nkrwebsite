@@ -1,0 +1,78 @@
+const productCategories = [
+  {
+    slug: "disposable-medis",
+    name: "Disposable Medis",
+    brands: ["Cosmomed", "Aximed", "Abbocath"],
+    description: "Syringe, catheter, masker, sarung tangan, infusion set, transfusion set, urine bag, dan kebutuhan disposable faskes.",
+    products: [
+      ["Alcohol Swab", "Cosmomed", "Steril, siap pakai untuk persiapan tindakan injeksi dan perawatan."],
+      ["Syringe", "Cosmomed", "Pilihan ukuran umum untuk kebutuhan klinik, rumah sakit, dan layanan kesehatan."],
+      ["IV Catheter", "Cosmomed / Aximed / Abbocath", "Varian port dan non-port dengan rentang ukuran No. 14-24."],
+      ["Infusion Set", "Cosmomed / Aximed", "Set infus disposable untuk pemakaian fasilitas pelayanan kesehatan."],
+      ["Transfusion Set", "Cosmomed / Aximed", "Perangkat transfusi sekali pakai untuk kebutuhan klinis."],
+      ["Suction Catheter", "Cosmomed / Aximed", "Pilihan ukuran untuk prosedur suction di faskes."],
+      ["Urine Bag", "Cosmomed / Aximed", "Urine drainage bag untuk kebutuhan rawat inap dan tindakan medis."],
+      ["Surgical Glove", "Cosmomed / Aximed", "Sarung tangan steril untuk tindakan medis dan bedah."],
+      ["Face Mask & Oxygen Mask", "Aximed", "Masker medis dan perangkat oksigenasi untuk kebutuhan perawatan."],
+    ],
+  },
+  {
+    slug: "perawatan-luka",
+    name: "Perawatan Luka",
+    brands: ["Bunda", "Bunda Husada"],
+    description: "Kasa hydrofile, kasa steril, verban, dan kapas kesehatan untuk kebutuhan perawatan luka.",
+    products: [
+      ["Kasa Hydrofile", "Bunda", "Varian merah, hijau, dan biru sesuai kebutuhan kualitas dan pemakaian."],
+      ["Kasa Steril Hydrofile", "Bunda Husada", "Kasa steril siap pakai untuk tindakan dan perawatan luka."],
+      ["Kasa Verban", "Bunda", "Verban kasa untuk balutan dan kebutuhan perawatan harian."],
+      ["Cotton Roll", "Bunda Husada", "Kapas kesehatan untuk klinik, rumah sakit, dan apotek."],
+    ],
+  },
+  {
+    slug: "diagnostik-monitoring",
+    name: "Diagnostik & Monitoring",
+    brands: ["Cosmomed", "Aximed"],
+    description: "Produk diagnostik praktis seperti termometer digital, HCG pregnancy test, dan ID band.",
+    products: [
+      ["Digital Thermometer", "Cosmomed", "Termometer digital untuk pemantauan suhu pasien."],
+      ["HCG Pregnancy Test", "Cosmomed", "Test pack kehamilan untuk layanan klinik dan apotek."],
+      ["ID Band", "Cosmomed", "Gelang identifikasi pasien untuk fasilitas pelayanan kesehatan."],
+      ["Lancet & Lancing Device", "Aximed", "Perangkat sampling darah kapiler untuk kebutuhan diagnostik."],
+    ],
+  },
+  {
+    slug: "radiologi",
+    name: "Radiologi",
+    brands: ["Fuji Medical X-Ray Film"],
+    description: "Film radiologi green sensitive dalam berbagai ukuran untuk kebutuhan instalasi radiologi.",
+    products: [
+      ["Green Sensitive Film 18x24 cm", "Fuji Medical X-Ray Film", "Film x-ray untuk kebutuhan pemeriksaan radiologi."],
+      ["Green Sensitive Film 24x30 cm", "Fuji Medical X-Ray Film", "Ukuran populer untuk instalasi radiologi faskes."],
+      ["Green Sensitive Film 30x40 cm", "Fuji Medical X-Ray Film", "Film ukuran besar untuk kebutuhan pemeriksaan tertentu."],
+    ],
+  },
+  {
+    slug: "bayi-kebersihan",
+    name: "Perawatan Bayi & Kebersihan",
+    brands: ["Baby Boom", "See-U", "Plenty", "Cosmomed"],
+    description: "Pampers, underpad, dan tissue untuk kebutuhan pasien, bayi, dan kebersihan faskes.",
+    products: [
+      ["Baby Diaper", "Baby Boom", "Pilihan ukuran S, M, dan varian lain untuk kebutuhan bayi."],
+      ["Underpad", "Cosmomed", "Underpad disposable untuk rawat inap, klinik, dan homecare."],
+      ["Tissue Roll", "See-U / Plenty", "Tissue roll emboss dan non-emboss untuk kebutuhan kebersihan."],
+    ],
+  },
+  {
+    slug: "furniture-rs",
+    name: "Furniture & Peralatan Rumah Sakit",
+    brands: ["Meubeulair"],
+    description: "Hospital bed, trolley, incubator, meja obstetric, dan perlengkapan ruang perawatan.",
+    products: [
+      ["Hospital Bed", "Meubeulair", "Tempat tidur pasien untuk ruang rawat dan fasilitas kesehatan."],
+      ["Anesthesi Trolley", "Meubeulair", "Trolley untuk kebutuhan ruang tindakan dan anestesi."],
+      ["Mobile Stretcher", "Meubeulair", "Stretcher bergerak untuk mobilisasi pasien."],
+      ["Overbed Table", "Meubeulair", "Meja pasien untuk kebutuhan rawat inap."],
+      ["Infant Incubator", "Meubeulair", "Peralatan bayi untuk kebutuhan fasilitas kesehatan."],
+    ],
+  },
+];
